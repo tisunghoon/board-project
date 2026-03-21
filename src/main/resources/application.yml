@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/board_db?useSSL=false&serverTimezone=Asia/Se
+  oul&characterEncoding=UTF-8
+    username: root
+    password: 4o7akaqn
+    driver-class-name: com.mysql.cj.jdbc.Drive
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
